@@ -1,0 +1,24 @@
+{
+  "name": "nohost",
+  "version": "0.0.2",
+  "description": "nohost的PC客户端，帮助PC用户设置nohost环境，安装后打开即可接入nohost",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.renrenche.com/wangyuelong/nohost-client"
+  },
+  "author": "renrenche",
+  "license": "MIT",
+  "dependencies": {
+    "fix-path": "^3.0.0",
+    "fs-extra-promise": "^1.0.1",
+    "lan-settings": "^1.0.0-beta4",
+    "qr-image": "^3.2.0",
+    "sudo-prompt": "^9.2.1",
+    "whistle": "^2.4.0",
+    "whistle.renrenche": "^1.0.0"
+  },
+  "optionalDependencies": {
+    "regedit": "^3.0.2"
+  }
+}

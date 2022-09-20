@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QrCode</title>
+</head>
+<body>
+<b id='a'></b>
+<img src='' id='qr'>
+<script>
+    window.addEventListener("message", (msg) => {
+        let {data} = msg;
+        document.getElementById('qr').src = data;
+    });
+</script>
+</body>
+</html>
